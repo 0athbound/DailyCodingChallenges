@@ -16,8 +16,10 @@ function reverseArray(num){
     //make number a string and split it
     let numArray = num.toString().split('').reverse()
     //reverse array and then make array integers again and return
-    return Number(...numArray)
+    return numArray.map(e=>parseInt(e))
 }
 
 reverseArray (9238) //should return [8,3,2,9]
 console.log(reverseArray(330),[0,3,3])
+
+//just needed to map through and make each string element an integer
