@@ -7,6 +7,15 @@
 //Results: Returns "true" or "false" depending on boolean
 
 //Examples:
+function booleanToString(b){
+    return b.toString();
+  }
+
+//or
+function booleanToString(b){
+    return b ? 'true' : 'false';
+  }
+
 
 //Pseudocode: create a function to take in a boolean and return a string
 //            try using .toString() method
