@@ -16,3 +16,15 @@ var summation = function(num) {
     }
     return sum
 }
+
+//Additional Solutions:
+
+var summation = function (num) { /* Gauss Formula */
+    return num * (num + 1) / 2
+}
+
+//or 
+
+var summation = function (num) { /* recursion*/
+    return num ? num + summation(num - 1) : num
+}
