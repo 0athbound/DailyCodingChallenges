@@ -16,3 +16,14 @@
 function check(a, x) {
     return a.includes(x) ? true : false; 
   }
+
+  //Additional solutions:
+
+  function check(a,x){
+    return a.includes(x);
+  };
+
+  //or
+
+  const check = (a, x) =>
+  a.some(val => val === x);
