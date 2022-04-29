@@ -21,3 +21,5 @@ function reverseArray(num){
 
 reverseArray (9238) //should return [8,3,2,9]
 console.log(reverseArray(330),[0,3,3])
+
+//this way didn't work. Have to use map. Ooops
