@@ -10,7 +10,7 @@
 //   If we are given [4,5,6], should return [8,10,12]   
 //   If we are given [2,22], should return [4,44]
 
-//Psuedo-code:
+//Pseudo-code:
 //Make a function that takes in an array
 function doubled(arr){
     if(arr.length === 0 || arr === undefined){
